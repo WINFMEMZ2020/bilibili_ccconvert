@@ -1,0 +1,2 @@
+# bilibili_ccconvert
+将哔哩哔哩的CC字幕处理成SRT文件
