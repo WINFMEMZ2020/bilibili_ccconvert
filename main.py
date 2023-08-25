@@ -1,4 +1,5 @@
 import json
+import os
 
 def convert_cc_to_srt(cc_file, srt_file):
     with open(cc_file, 'r', encoding='utf-8') as f:
@@ -33,3 +34,4 @@ cc_file = input("请输入CC字幕文件(.json)文件路径：")
 srt_file = 'output.srt'
 
 convert_cc_to_srt(cc_file, srt_file)
+os.system("pause")
